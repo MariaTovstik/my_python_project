@@ -1,7 +1,10 @@
-from config import APP_NAME
+import conflict
 from utils import get_greeting
 
-print ("...Starting {APP_NAME}...")
-print("Hello conflict-brunch")
-print(get_greeting("User"))
-
+def main():
+	print(f"Welcome to {config.APP_NAME}")
+	user_message = get_greeting("Student")
+	print(user message)
+	print("Project version 1.1")
+if __name__="__main__":
+	main()
